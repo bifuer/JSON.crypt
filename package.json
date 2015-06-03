@@ -1,0 +1,57 @@
+{
+  "name": "json.crypt",
+  "description": "Javascript object encryt utility for Node.js",
+  "version": "0.2.0",
+  "author": {
+    "name": "Bifuer",
+    "email": "bifuer@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Chelo Quilón Gomez",
+      "email": "cheloq@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/bifuer/JSON.crypt",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bifuer/JSON.crypt"
+  },
+  "bugs": {
+    "url": "https://github.com/bifuer/JSON.crypt/issues",
+    "email" : "cheloq@gmail.com"
+  },
+  "keywords": [
+    "json",
+    "stringify",
+    "circular",
+    "parse",
+    "decycled",
+    "decycler",
+    "crypt",
+    "encrypt",
+    "decrypt",
+    "js",
+    "javascript",
+    "node"
+  ],
+  "dependencies": {
+    "json.decycled": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "unit.js": "*"
+  },
+ "main": "./index.js",
+ "scripts":{
+    "test": "mocha test/"
+  },
+  "preferGlobal": false,
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}
