@@ -1,6 +1,13 @@
 /* jslint node: true */
 "use strict";
 
+global.modulesCache = global.modulesCache || {};
+if(global.modulesCache['json.crypt']){
+  return;
+} else {
+	global.modulesCache['json.crypt'] = true;
+}
+
 var crypto = require('crypto');
 
 JSON.cryptPassword = 'none';
