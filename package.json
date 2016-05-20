@@ -12,13 +12,13 @@
       "email": "cheloq@gmail.com"
     }
   ],
-  "homepage": "https://github.com/bifuer/JSON.crypt",
+  "homepage": "https://github.com/pillarsjs/JSON.crypt",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bifuer/JSON.crypt"
+    "url": "git://github.com/pillarsjs/JSON.crypt"
   },
   "bugs": {
-    "url": "https://github.com/bifuer/JSON.crypt/issues",
+    "url": "https://github.com/pillarsjs/JSON.crypt/issues",
     "email" : "cheloq@gmail.com"
   },
   "keywords": [
