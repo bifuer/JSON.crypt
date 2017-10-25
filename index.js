@@ -35,8 +35,10 @@ JSON.decrypt = function(data, password, algorithm){
 	data = data[1];
 	password = password || JSON.cryptPassword;
 	algorithm = algorithm || JSON.cryptAlgorithm;
-	var decipher = crypto.createDecipheriv(algorithm, password, iv);
+
+	
 	try {
+		var decipher = crypto.createDecipheriv(algorithm, password, iv);
 		data = decipher.update(data, 'hex', 'utf8');
 		data += decipher.final('utf8');
 		data = JSON.revive(data);
